@@ -5,13 +5,3 @@ module Scrooge
     end
   end
 end
-
-class Grandad
-end
-
-class Dad < Grandad
-  include Scrooge
-end
-
-class Son < Dad
-end
